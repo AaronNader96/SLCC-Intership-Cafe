@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f9fa;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+}
+.bg-red {
+    background-color: #dc3545;
+    color: #fff;
+}
+.bg-yellow {
+    background-color: #ffc107;
+    color: #343a40;
+}
+.bg-blue {
+    background-color: #007bff;
+    color: #fff;
+}
+.text-red {
+    color: #dc3545;
+}
+.text-yellow {
+    color: #ffc107;
+}
+.text-blue {
+    color: #007bff;
+}
+.menu-item {
+    border: 5px solid black;
+    padding: 20px;
+}
+.message-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+.message {
+    text-align: center;
+}  
+.menu-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.menu-item h3 {
+    margin-top: 0;
+}
+  
+.menu-item p.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.menu-item button.order-btn {
+    font-size: 18px;
+    font-weight: bold;
+}
+  
