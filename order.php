@@ -1,5 +1,5 @@
-<!-- order.php -->
 <?php
+ob_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$name = $_POST["name"];
 	$email = $_POST["email"];
@@ -15,4 +15,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	header("Location: thank-you.php");
 	exit;
 }
+ob_end_flush();
 ?>
