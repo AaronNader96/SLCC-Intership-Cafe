@@ -57,6 +57,12 @@
             </div>
         </div>
     </div>
+
+                <!-- Image -->
+                <div class="text-center mt-5">
+        <img src="assets/specials.png" alt="cafe" class="img-fluid w-50 h-50">
+    </div>
+
     <div class="container py-5">
         <div class="row" id="daily-specials"></div>
     </div>

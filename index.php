@@ -44,15 +44,24 @@
         </div>
     </nav>
 
-    <!-- Message -->
     <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Welcome to Miller Campus Cafeteria!</h1>
-            <p class="lead">We are excited to offer you a variety of delicious meals that will satisfy your cravings. Our menu consists of mouth-watering dishes made with fresh ingredients that are sure to please your taste buds. Click on <a href="menu.php">Menu</a> to order from our standard menu options, or click on <a href="specials.php">Daily Specials</a> for our daily specials. If you need to customize your order please click on <a href="custom.php">Custom Orders</a> the form below.</p>
-            <hr class="my-4">
-            <p>We take pride in providing excellent customer service and ensuring that your experience at our cafeteria is a memorable one. Whether you're looking for a quick bite during your break or a relaxing meal with friends, our cafeteria is the perfect place for you.</p>
-        </div>
+    <div class="container">
+    <h1 class="display-4 text-center">Welcome to Miller Campus Cafeteria!</h1>
+    
+    <!-- Image -->
+    <div class="text-center mt-5">
+      <div class="rounded-circle overflow-hidden border border-primary d-inline-block">
+        <img src="assets/logo.jpg" alt="cafe class="mx-auto">
+      </div>
     </div>
+
+    <!-- Message -->
+    <p class="lead mt-4">We are excited to offer you a variety of delicious meals that will satisfy your cravings. Our menu consists of mouth-watering dishes made with fresh ingredients that are sure to please your taste buds. Click on <a href="menu.php">Menu</a> to order from our standard menu options, or click on <a href="specials.php">Daily Specials</a> for our daily specials. If you need to customize your order please click on <a href="custom.php">Custom Orders</a> the form below.</p>
+    <hr class="my-4">
+    <p>We take pride in providing excellent customer service and ensuring that your experience at our cafeteria is a memorable one. Whether you're looking for a quick bite during your break or a relaxing meal with friends, our cafeteria is the perfect place for you.</p>
+  </div>
+</div>
+
 
     <!-- Footer -->
     <footer class="container-fluid bg-dark text-white py-3">

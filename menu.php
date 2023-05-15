@@ -53,32 +53,38 @@
   </div>
 </div>
 
-<div class="menu-section">
+
+  <!-- Image -->
+  <div class="text-center mt-5">
+  <img src="assets/menu.jpg" alt="cafe" class="w-25 h-10">
+  </div>
+
+  <div class="menu-section">
   <h2 class="text-center mb-4">Please select a desire of your choice!</h2>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <div class="menu-item bg-primary text-center">
           <h3 class="text-warning">Burgers with French Fries</h3>
           <p>Our juicy beef burgers are served on a freshly baked bun with lettuce, tomato, and your choice of cheese. Comes with a side of crispy french fries.</p>
           <p class="price">$8.99</p> <button class="btn btn-warning order-btn" data-item="Burgers with French Fries" onclick="window.location.href='order-menu.php?item=Burgers with French Fries&price=8.99'">Order Now</button>
         </div>
       </div>
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <div class="menu-item bg-danger text-center">
           <h3 class="text-warning">Hot Dog with French Fries</h3>
           <p>Our all-beef hot dogs are grilled to perfection and served on a soft bun with your choice of toppings. Comes with a side of crispy french fries.</p>
           <p class="price">$6.99</p> <button class="btn btn-warning order-btn" data-item="Hot Dog with French Fries" onclick="window.location.href='order-menu.php?item=Hot Dog with French Fries&price=6.99'">Order Now</button>
         </div>
       </div>
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <div class="menu-item bg-primary text-center">
           <h3 class="text-warning">Euro Greek Sandwich with French Fries</h3>
-          <p>This delicious sandwich features gyro meat, feta cheese, cucumber, tomato, red onion, and tzatziki sauce on a warm pita bread. Comes with a side of crispy french fries.</p>
+          <p>Delicious sandwich features gyro meat, feta cheese, cucumber, tomato, red onion, and tzatziki sauce on a warm pita bread. Comes with a side of crispy french fries.</p>
           <p class="price">$9.99</p> <button class="btn btn-warning order-btn" data-item="Euro Greek Sandwich with French Fries" onclick="window.location.href='order-menu.php?item=Euro Greek Sandwich with French Fries&price=9.99'">Order Now</button>
         </div>
       </div>
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <div class="menu-item bg-danger text-center">
           <h3 class="text-warning">Steak with French Fries</h3>
           <p>Our tender and juicy steak is seasoned to perfection and served with your choice of sauce. Comes with a side of crispy french fries.</p>
@@ -88,8 +94,6 @@
     </div>
   </div>
 </div>
-
-    <br>
 </body> 
 
 <!-- Footer -->

@@ -52,14 +52,21 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-                    <h1 class="text-center">Custom Us!</h1>
+                    <h1 class="text-center">Contact Us!</h1>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Contact Form -->
     <div class="container py-5">
+
+    <!-- Image -->
+    <div class="text-center mt-5">
+        <img src="assets/contact.png" alt="cafe" class="img-fluid w-50 h-50">
+    </div>
+
+    <!-- Contact Form -->
+
         <form method="post" action="contact.php">
             <div class="form-group"> <label for="name">Name:</label> <input type="text" class="form-control" id="name" name="name" required> </div>
             <div class="form-group"> <label for="email">Email:</label> <input type="email" class="form-control" id="email" name="email" required> </div>
